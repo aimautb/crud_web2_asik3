@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog CRUD UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>CRUD Blog UI</h1>
+
+    <h3>Create New Blog</h3>
+    <input type="text" id="title" placeholder="Title">
+    <textarea id="body" placeholder="Body"></textarea>
+    <input type="text" id="author" placeholder="Author (optional)">
+    <button onclick="createBlog()">Create Blog</button>
+
+    <h2>All Blogs</h2>
+    <div id="blogs"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

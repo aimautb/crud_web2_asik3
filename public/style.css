@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #444;
+}
+
+.blog {
+    background: #e8e8e8;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.actions button {
+    background: darkred;
+    margin-right: 10px;
+}
+
+.actions button.edit {
+    background: darkblue;
+}
